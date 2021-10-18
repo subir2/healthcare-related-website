@@ -1,0 +1,18 @@
+.items {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 2px;
+    text-decoration: none;
+    
+  }
+  .items:hover {
+    color: aqua;
+  }
+  .img2{
+    height: 100px;
+
+  }

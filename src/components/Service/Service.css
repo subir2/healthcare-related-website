@@ -1,0 +1,16 @@
+.cart-new{
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+    .btn-course1{
+        background-color: maroon;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        color: whitesmoke;
+        height: 40px;
+        width: 100px;
+    }
