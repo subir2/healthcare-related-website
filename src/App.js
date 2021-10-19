@@ -10,12 +10,15 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import AuthProvider from './contexts/AuthProvider';
 import Login from './components/Login/Login/Login';
+import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
-    <div >
+    <div  className="App">
+    
  <AuthProvider>
  <Router>
+ <Menu/>
           <Switch>
             <Route exact path="/">
           <Home></Home>
@@ -25,16 +28,16 @@ function App() {
             <Home></Home>
             </Route>
 
-            <Route path="/services">
+            <PrivateRoute path="/services">
               
            <Service></Service>
               
-            </Route>
+            </PrivateRoute>
 
-            <Route path="/Details/:id">
+            <PrivateRoute path="/Details/:id">
        <Details></Details>
                  
-               </Route>
+               </PrivateRoute>
 
             <Route path="/about">
               <About></About>
