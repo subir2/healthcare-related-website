@@ -8,7 +8,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faCoffee,
+
   faPhone,
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>Education For All</h1>
+                <h1>Health Care</h1>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon icon-insta">
                     <FontAwesomeIcon icon={faInstagramSquare} />

@@ -40,7 +40,8 @@ const logOut=()=>{
 return {
     users,
     signInUsingGoogle,
-    logOut
+    logOut,
+    setUsers
 
 
 }

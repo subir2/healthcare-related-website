@@ -19,7 +19,7 @@ const Service = () => {
                 
                 hospitals.map(hospital=>
              
-            <div className="col-lg-3 col-sm-6 col-12  mb-5 cart-new">
+            <div className="col-lg-3 col-sm-6 col-12  mb-5 ml-3 cart-new">
                 
               <img src={hospital.img} alt="" srcset="" />
               <h4>{hospital.name}</h4>

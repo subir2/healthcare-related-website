@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import AuthProvider from './contexts/AuthProvider';
 import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import Notfound from './components/Notfound/Notfound';
 
 function App() {
   return (
@@ -58,8 +59,8 @@ function App() {
               </Route>
               
             
-            <Route path="*">
-            
+              <Route path="*">
+              <Notfound/>
             </Route>
            
            

@@ -8,12 +8,12 @@ import useAuth from '../../Hooks/useAuth';
 
 const Menu = () => {
   const { users, logOut } = useAuth();
-  console.log(users);
+//   console.log(users);
     return (
       <>
       <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
           <Container>
-              <Navbar.Brand href="#home">Genius</Navbar.Brand>
+              <Navbar.Brand href="#home">Health Care</Navbar.Brand>
               <Navbar.Toggle />
               <Navbar.Collapse className="justify-content-end">
                   <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
@@ -24,7 +24,7 @@ const Menu = () => {
                       <Button onClick={logOut} variant="light">Logout</Button> :
                       <Nav.Link as={Link} to="/Login">Login</Nav.Link>}
                   <Navbar.Text>
-                      Signed in as: <a href="#login">{users?.displayName}</a>
+                      Signed in as: <a href="#login">{users?.email}</a>
                   </Navbar.Text>
               </Navbar.Collapse>
           </Container>
